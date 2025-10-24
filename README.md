@@ -19,27 +19,6 @@ Together, these scripts form a self-contained system that simulates a real-world
 
 ---
 
-## 🧩 Project Structure
-check-reachability/
-│
-├── scripts/
-│ └── check_reachability.sh
-│
-├── systemd/
-│ ├── check_reachability.service
-│ └── check_reachability.timer
-│
-├── config/
-│ └── mailrc
-│
-└── README.md
-
-└── local_repo/
-  └── setup_local_repo.sh
-
-
----
-
 ## ⚙️ Key Features
 - **Automated VM health checks**
 - **Mailx email alerts** for unreachable machines
@@ -70,8 +49,6 @@ check-reachability/
 
 ## 🖼️ System Diagram
 ![System Diagram](./images/system_diagram.png)
-_This diagram illustrates how the Admin VM performs reachability checks, installs/updates via the local repo, and sends alerts to the admin email._
-
 ---
 
 ## 🎯 Educational Context

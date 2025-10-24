@@ -14,20 +14,6 @@ The script periodically tests network connectivity, logs results, and sends auto
 
 ---
 
-## 🗂️ Project Structure
-check-reachability/
-│
-├── scripts/
-│ └── check_reachability.sh
-│
-├── systemd/
-│ ├── check_reachability.service
-│ └── check_reachability.timer
-│
-├── config/
-│ └── mailrc
-│
-└── README.md
 ## 🔍 How It Works
 1. The script pings or SSH-checks all configured VMs.  
 2. Results are logged in `health_check.log`.  
