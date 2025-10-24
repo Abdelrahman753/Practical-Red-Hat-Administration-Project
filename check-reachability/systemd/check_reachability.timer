@@ -1,0 +1,13 @@
+[Unit]
+Description=Run Check Reachability Script every 2 minutes
+
+[Timer]
+# Wait 1 minute after boot, then run every 2 minutes
+OnBootSec=1min
+OnUnitActiveSec=2min
+
+# Service file to trigger
+Unit=check_reachability.service
+
+[Install]
+WantedBy=timers.target

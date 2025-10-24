@@ -1,0 +1,8 @@
+set v15-compat
+set mta=smtp://smtp.gmail.com:587
+set smtp-use-starttls
+set ssl-verify=ignore
+set from="youremail@gmail.com (Server Alert)"
+set auth=login
+set user=youremail@gmail.com
+set password="your_app_password"

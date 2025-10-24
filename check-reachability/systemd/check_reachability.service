@@ -1,0 +1,8 @@
+[Unit]
+Description=Check Reachability Script Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/check_reachability.sh
+User=devops
