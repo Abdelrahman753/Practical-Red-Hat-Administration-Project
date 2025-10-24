@@ -12,11 +12,3 @@ All operations are logged to `/var/log/local_repo.log`.
 - Installs MariaDB automatically
 - Logs every action
 
----
-
-## 🚀 Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/local-repo-setup.git
-   cd local-repo-setup
